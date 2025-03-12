@@ -1,0 +1,132 @@
+Page: **Home**
+ - Navbar
+ - Hero Header Section: Large background video/image showcasing high-quality reels with headline, subtext, and CTA buttons ("📸 Book Now" and "📦 View Packages")
+ - Features List Section: Grid or slider format featuring Instant Booking, High-Quality Reels, Customized Packages, Instant Delivery, and Secure Payments
+ - Feature Section: Horizontal scroll section featuring 5-6 preview reels made by Flashoot partners
+ - Feature Section: Top Partners of the Week featuring profile pictures and links to their work
+ - Feature Section: Discount Coupons Section displaying ongoing offers or seasonal discounts
+ - How It Works Section: Step-by-step guide explaining the process: Sign Up/Login, Choose a Package, Book Your Shoot, Shoot & Edit
+ - Footer
+
+Sub-pages: Login Page, About Page, Press Page, Blog Page, Contact Us Page, FAQ Page, Become a Partner with us Page
+
+
+Page: **Login Page**
+ - Navbar
+ - Header Section: Page header with the title "Login to Flashoot"
+ - CTA Form Section: Mobile number login form integrated with OTPless API, including a CTA button "Send OTP"
+ - Footer
+
+Sub-pages: Authentication & User Dashboard
+
+
+Page: **Authentication & User Dashboard**
+ - Navbar
+ - Application Form Section: Login Page with mobile number login via OTPless API
+ - Feature Section: Greeting Message with Profile Picture after login
+ - Features List Section: Quick Access Buttons: 🎥 Book Now, 🎟️ My Packages, 💳 Wallet, ⚙️ Settings
+ - Footer
+
+Sub-pages: Booking Page, Packages Page
+
+
+Page: **Booking Page**
+ - Navbar
+ - Header Section: Page title "Book Your Shoot"
+ - Feature Section: Book Now (Instant Booking for ₹1999 + GST) with one-click booking for a 60-second reel shoot, booking confirmation, and Razorpay payment
+ - Feature Section: Book for Later (Scheduled Booking Options): Hourly Package (₹1999 + GST), One Day Package (₹4999 + GST), with calendar date & time selector, location entry field, and secure checkout via Razorpay
+ - Footer
+
+Sub-pages: Book Now, Book for Later
+
+
+Page: **Book Now**
+ - Navbar
+ - Ecommerce Product Header Section: Title: "Instant Booking for ₹1999 + GST", brief description of the service, and a prominent CTA button
+ - Ecommerce Product Section: One-click booking form for a 60-second reel shoot, including fields for date, time, and location
+ - CTA Section: Booking confirmation message with a "Confirm Booking" button leading to Razorpay payment gateway
+ - Footer
+
+Page: **Book for Later**
+ - Navbar
+ - Header Section: Page title "Book for Later" with a brief description.
+ - Feature Section: Hourly Package: ₹1999 + GST, includes a calendar date & time selector, location entry field, and secure checkout via Razorpay.
+ - Feature Section: One Day Package: ₹4999 + GST, includes a calendar date & time selector, location entry field, and secure checkout via Razorpay.
+ - CTA Section: "📅 Confirm Booking" button leading to checkout.
+ - Footer
+
+Page: **Packages Page**
+ - Navbar
+ - Header Section: A visually appealing header with a brief overview of available packages
+ - Feature Section: Wedding Packages displayed in a grid format with options: Standard - ₹14,999 (1 event, 3 reels), Silver - ₹44,999 (3 events, 10 reels), Gold - ₹59,999 (4 events, 15 reels + 50 mobile portraits), Platinum - ₹99,999 (Full event, 25 reels + 100 mobile portraits)
+ - Feature Section: Corporate Package displayed in a single card layout with details: Day Package - ₹9,999 (6 hours, 3 reels, 15 mobile portraits)
+ - CTA Section: "📅 Book Your Package" button leading to the checkout page
+ - Footer
+
+Page: **About Page**
+ - Navbar
+ - Header Section: Introduction to Flashoot, highlighting the company's mission and vision.
+ - About Section: Detailed description of Flashoot as a professional photography & videography booking platform.
+ - Feature Section: History and milestones of Flashoot, including key achievements and growth over the years.
+ - Team Section: Information about the founding team and key members, including photos and brief bios.
+ - Gallery Section: Showcase of high-quality reels and photos created by Flashoot partners.
+ - Testimonial Section: Customer testimonials and reviews highlighting positive experiences and successful projects.
+ - CTA Section: Encourage visitors to book a session or learn more about the services offered by Flashoot.
+ - Footer
+
+Page: **Press Page**
+ - Navbar
+ - Press Article Header Section: Header for individual press articles, featuring the article title, publication date, and a brief summary or tagline
+ - Press List Section: List of press articles featuring Flashoot, with article titles, publication dates, and links to full articles
+ - Feature Section: Highlighted press article with a featured image, title, and link to read more
+ - Feature Section: Quotes from notable press mentions, displayed prominently with the publication name and a "Read More" link
+ - Feature Section: Media contact information, featuring the name, email, and phone number of the press contact for Flashoot
+ - Footer
+
+Page: **Blog Page**
+ - Navbar
+ - Featured Blog List Header Section: Introduction to the blog page with a headline like "Latest Insights & Stories" and a brief description of what users can expect to find.
+ - Blog List Section: A list of blog posts displayed in a grid or list format, each with a thumbnail image, title, brief excerpt, and a "Read More" link.
+ - CTA Form Section: A call-to-action form encouraging visitors to subscribe to the blog newsletter for updates and exclusive content.
+ - FAQ Section: Frequently asked questions about the blog, such as how often new content is published, how to contribute, and how to subscribe.
+ - Testimonial Section: Testimonials or reviews from readers about the quality and usefulness of the blog content.
+ - Footer
+
+Page: **Contact Us Page**
+ - Navbar
+ - Header Section: Introduction to the Contact Us page with a brief description and welcoming message
+ - Contact Section: General contact information including address, phone number, and email
+ - Contact Form Section: A form for users to fill out with fields for name, email, subject, and message
+ - Locations Section: Map showing the physical location(s) of the business
+ - FAQ Section: Frequently asked questions to help users with common inquiries
+ - Footer
+
+Page: **FAQ Page**
+ - Navbar
+ - Header Section: Title: "Frequently Asked Questions" with a brief introductory text: "Find answers to some of the most common questions about Flashoot."
+ - FAQ Section: A section with a list of frequently asked questions and their detailed answers, such as:
+ - CTA Section: A call-to-action section encouraging users to reach out if their questions are not answered in the FAQ. Text: "Still have questions? Contact our support team for more assistance." with a CTA button: "Contact Us" leading to the Contact Us Page.
+ - Footer
+
+Page: **Become a Partner with us Page**
+ - Navbar
+ - Header Section: Informative header with a headline: "Join the Flashoot Community", subtext: "Partner with us and showcase your talent.", and a CTA button: "Apply Now"
+ - Feature Section: Detailed explanation of benefits of becoming a partner (e.g., exposure, networking opportunities, increased bookings)
+ - Feature Section: Requirements and qualifications needed to become a partner
+ - Application Form Section: Form for potential partners to submit their application (fields: Name, Email, Phone Number, Portfolio URL, Experience, etc.)
+ - Feature Section: Testimonials from existing partners sharing their success stories
+ - CTA Section: Encouraging message with a CTA button: "Join Us Now" leading to the application form
+ - Footer
+
+Sub-pages: Partner Onboarding Page
+
+
+Page: **Partner Onboarding Page**
+ - Navbar
+ - Header Section: Header introducing the Partner Onboarding process with a welcoming message and brief overview
+ - Feature Section: Benefits of partnering with Flashoot: Access to a large client base, flexible scheduling, and revenue opportunities
+ - FAQ Section: Frequently Asked Questions about the onboarding process, requirements, and partnership details
+ - Application Form Section: Detailed application form for potential partners to fill out, including personal information, portfolio links, and availability
+ - Team Section: Introduction to the Flashoot team and dedicated partner support contacts
+ - CTA Section: Call to Action encouraging potential partners to apply or reach out for more information
+ - Footer
