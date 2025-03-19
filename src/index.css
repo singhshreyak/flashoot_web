@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 100% 50%;
+    --primary-foreground: 9 100% 99%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased bg-background text-foreground font-sans;
+  }
+}
+
+.glass {
+  @apply bg-gradient-to-br from-background/10 to-background/30 backdrop-blur-xl border border-white/10;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary via-primary to-primary/50 bg-clip-text text-transparent;
+}
+
+.gradient-button {
+  box-shadow: 0 0 20px -5px theme('colors.primary');
+  transition: all 0.3s ease;
+}
+
+.gradient-button:hover {
+  box-shadow: 0 0 30px -5px theme('colors.primary');
+  transform: translateY(-1px);
+}
+
+.section-dark {
+  @apply bg-background relative overflow-hidden;
+}
+
+.section-darker {
+  @apply bg-black/50 relative overflow-hidden;
+}
+
+.section-gradient {
+  @apply bg-gradient-to-b from-background to-black/50 relative overflow-hidden;
+}
+
+.section-accent {
+  @apply bg-primary/5 relative overflow-hidden;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-sparkle {
+  animation: sparkle 1s ease-in-out infinite;
+}
+
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+.scroll-container {
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
